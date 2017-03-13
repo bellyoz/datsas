@@ -1,0 +1,288 @@
+/*# sourceMappingURL=style.css.map */
+body,html{
+    height:100%;
+    width:100%;
+}
+/*navbar*/
+.nav-menu {
+  background: transparent !important;
+  opacity: 0.5;
+}
+.navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav > li > a {
+  color: #fff !important;
+}
+.navbar-nav  li:hover{
+  background: black;
+}
+.select{
+  background: black !important;
+}
+
+/*header*/
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../images/fondo3.jpg');
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+}
+.header-wrapper{
+   
+  padding: 100px 15px 100px;
+
+}
+
+.img{
+  width: 30%;
+  margin-right: 35%;
+  margin-left: 35%;
+  height: 300px;
+  background: white;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  header{
+    position: static;
+  }
+  
+}
+/*box*/
+.box-wrapper{
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.box-wrapper  span{
+  font-size: 52px !important;
+  margin-bottom: 10px;
+  color: #009688;
+}
+/*nuestro equipo*/
+.team{
+  cursor:pointer;
+  position: relative;
+  margin: 10px;
+  margin-top: 30px;
+}
+.team img{
+  width: 100%;
+}
+.text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 60%;
+    display: none;
+    text-align: center;
+    color: #fff !important;
+    z-index: 2;
+
+}
+#teams{
+  background:#ECEFF1;
+  text-align: center;
+}
+#teams a{
+  margin: 10px;
+}
+.logos{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.logos span{
+  font-size: 50px;
+}
+#socios{
+  margin-top: 30px;
+  text-align: center;
+}
+#socios h2{
+  margin-bottom: 40px;
+  
+}
+/*footer*/
+.footer{
+  background: #555;
+  color: #eee;
+}
+.footer h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.link{
+  margin-left: 25%;
+}
+.link ul {
+  list-style: none;
+}
+
+.link ul li a{
+  text-decoration: none;
+  color: #eee;
+}
+.link ul li a:hover{
+  color: #C6C6C6;
+}
+.social{
+  text-align: center;
+}
+.social span{
+  padding: 15px;
+  background: #818181;
+  border-radius: 50%;
+  font-size: 24px;
+
+}
+.social a{
+  color: white;
+  text-decoration: none;
+}
+.social a:hover{
+  color: white;
+  text-decoration: none;
+}
+.social a:hover span{
+  background: #727272;
+
+}
+.footer-copy {
+  background: #272727;
+  padding: 15px;
+  text-align: center;
+}
+.icon-social{
+  margin-bottom: 35px;
+}
+/*breadcrumb*/
+.navbar{
+  margin-bottom: 0px !important;
+}
+#bread{
+  background: #f5f5f5;
+  margin-bottom: 30px;
+}
+#bread .container{
+  padding: 10px;
+}
+.breadcrumb{
+  margin: 0px !important;
+}
+/*Portafolio*/
+.portafolio{
+  margin-top: 15px;
+  padding: 2px;
+}
+
+.portafolio:hover {
+  background: #009688;
+}
+.img-port  img:hover{
+  cursor: pointer;
+}
+
+.portafolio:hover .text-port{
+  color: #FFFFFF;
+}
+.img-port{
+  overflow: hidden;
+}
+.portafolio img {
+  width: 100%;
+  height: auto;
+}
+.text-port {
+  margin-left: 5px;
+
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/**/
+.popup{
+      width : 90%;
+      height: auto;
+      position : absolute;
+      top: 0;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 15%;
+      background: white;
+      z-index : 100001;
+      display: none;
+                      
+}
+.popup_bg{
+  display: none;
+}
+.img-blog img{
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+.popup_contenido{
+  margin: 20px;
+}
+#services-wrapper h3{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.service{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.service img{
+  margin-left: 10%;
+}
+/*about*/
+.about-top img{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#about h2{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.about-top{
+  margin-bottom: 30px;
+}
+.about-mid h3{
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+#contacto h2{
+  margin-bottom: 40px;
+}
+.contact{
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 2px;
+}
+.contact h4  {
+  font-weight: bold;
+}
+.contact h5{
+  font-weight: bold;
+}
+.contact span{
+  margin-right: 10px;
+}
